@@ -1,0 +1,733 @@
+body {
+	text-align: center;
+	max-width: 1280px;
+	margin: auto;
+}
+header {
+	display: flex;
+	height: 82px;
+	width: 1280px;
+	justify-content: center;
+	align-items: center;
+	padding-right: 10px;
+	border-bottom: 2px solid #dedede;
+	position: fixed;
+	top: 0px;
+	background: #ffffff;
+	z-index: 999;
+}
+#logo {
+	width: 150px;
+	margin-top: 6px;
+}
+#headerMenu {
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 15px;
+	display: flex;
+	width: 700px;
+	height: 50px;
+}
+#headerToolbar {
+	width: 250px;
+	margin-top: 12px;
+	display: block;
+}
+
+.toolBarButton {
+	padding-right: 16px;
+	background: white;
+	border: none;
+	cursor: pointer;
+}
+.headerMenuButton1 {
+	text-align: center;
+	margin-left: 18px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 12px;
+	width: 120px;
+}
+.headerMenuButton {
+	text-align: center;
+	margin-left: 18px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 12px;
+}
+/* ---------------------------------------------------------dropdownHeaderButton----------------------------------- */
+
+.megaMenu {
+	display: flex;
+}
+.headerMenuButton1:hover {
+	background-color: rgba(38, 42, 50, 1);
+	color: #ffffff;
+	border-bottom: 4px solid #84bc23;
+	height: 56px;
+}
+.dropdown-content {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	position: absolute;
+	background-color: rgba(38, 42, 50, 1);
+	min-width: 160px;
+	z-index: 1;
+	top: 80px;
+	left: 0px;
+	border: 1px solid #000000;
+	width: 1280px;
+	height: 380px;
+	display: none;
+	padding: 5px;
+	color: #ffffff;
+	justify-content: space-between;
+}
+.dropdownTitle {
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 45px;
+}
+.dropdownTitle2 {
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 45px;
+	height: 16px;
+}
+.dropdownList > .noBullet2 > li:not(:last-child) {
+	margin-bottom: 10px;
+
+	font-size: 14px;
+}
+.dropdownCell1 {
+	text-align: left;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+.dropdownCell2 {
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+.dropdownCell3 {
+	text-align: left;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+.dropdownCell4 {
+	text-align: left;
+	margin-left: 110px;
+	margin-top: 25px;
+}
+.dropdownCell5 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.dropdownImg {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 50px 0px 65px 65px;
+}
+.megaMenu:hover .dropdown-content {
+	display: flex;
+}
+.headerMenuButton:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+.noBullet {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+.noBullet2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 23px;
+}
+
+.headerMenuSmall {
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 6px;
+	margin-top: 6px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 6px;
+	color: #696969;
+}
+.arrowDown3 {
+	text-align: center;
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin-top: 5px;
+	margin-left: 6px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #bdc3c7;
+}
+.arrowDown2 {
+	text-align: center;
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin-top: 5px;
+	margin-left: 6px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #bdc3c7;
+}
+.arrowDown1 {
+	text-align: center;
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin-top: 5px;
+	margin-left: 16px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #bdc3c7;
+}
+#content1 {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	width: 1280px;
+	padding: 5px;
+	margin-top: 80px;
+}
+.menu {
+	/* padding-left: 50px; */
+	/* padding-right: 70px; */
+	text-align: left;
+	/* margin-top: 30px; */
+	background-image: url('../assets/Layer\ 3.jpg');
+	width: 850px;
+	margin-top: 20px;
+	height: 500px;
+	border-radius: 5px;
+}
+.viewButton {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	margin-top: 4px;
+	text-align: center;
+	margin-left: 60px;
+	background: none;
+	border: 2px solid #dedede;
+	cursor: pointer;
+	padding: 10px 28px;
+	border-radius: 20px;
+	color: #ffffff;
+}
+.oferta {
+	background-image: url('../assets/sales.PNG');
+	/* border: 1px solid black; */
+	text-align: center;
+	padding: 30px;
+	/* margin-top: 30px; */
+	height: 250px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.faceBook {
+	text-align: center;
+	/* width: 100px; */
+}
+.content1Text1 {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	height: 190px;
+	width: 630px;
+	font-size: 43px;
+	color: #ffffff;
+	padding-left: 60px;
+	padding-top: 55px;
+	margin-bottom: 0px;
+}
+.content1Text2 {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	height: 50px;
+	width: 350px;
+	color: #ffffff;
+	padding-left: 60px;
+
+	font-size: 15px;
+}
+.topNumber {
+	position: absolute;
+	top: 23px;
+	margin-left: 148px;
+	width: 12px;
+	height: 12px;
+	font-size: 12px;
+	padding: 1.5px;
+	border-radius: 10px;
+	border: 2px solid #8ac02e;
+	background-color: #ffffff;
+	color: #8ac02e;
+}
+.topNumber2 {
+	position: absolute;
+	top: 23px;
+
+	margin-left: 204px;
+	width: 12px;
+	height: 12px;
+	font-size: 12px;
+	padding: 1.5px;
+	border-radius: 10px;
+	border: 2px solid #8ac02e;
+	background-color: #ffffff;
+	color: #8ac02e;
+}
+.headerMenuContainerSmall {
+	margin-left: 34px;
+}
+.followButton {
+	background-image: url('../assets/f.png');
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: 18%;
+	width: 150px;
+	height: 40px;
+	border-radius: 25px;
+	position: relative;
+	margin-top: 60px;
+	color: rgba(58, 91, 150, 1);
+	border-color: rgba(58, 91, 150, 1);
+	padding-left: 17px;
+}
+.followText {
+	margin-top: 50px;
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-weight: normal;
+}
+.content1Right {
+	margin-left: 30px;
+}
+.salesPercent {
+	font-size: 100px;
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	color: #ffffff;
+	position: relative;
+	margin-top: 20px;
+	height: 90px;
+	padding-left: 8px;
+}
+.salesText {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-size: 23px;
+	width: 180px;
+	position: relative;
+	border-top: 8px;
+	color: #ffffff;
+	padding-left: 10px;
+}
+/* -----------------------------------------------Popular Items---------------------------------------- */
+#popularItems {
+	width: 1280px;
+	height: 1050px;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	padding: 5px;
+	margin-top: 30px;
+	background-color: rgba(38, 42, 50, 1);
+}
+.itemTitle {
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+.itemLine {
+	border-bottom: 1px solid #3c4147;
+	width: 1175px;
+	height: 10px;
+}
+.itemTopText {
+	height: 50px;
+	width: 240px;
+	position: absolute;
+	margin-top: 20px;
+	background: #ffffff;
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-weight: 600;
+	font-size: 23px;
+	background-color: rgba(38, 42, 50, 1);
+}
+
+.itemBox {
+	height: 800px;
+	width: 1280px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.itemCell {
+	width: 275px;
+	height: 368px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.itemImg {
+	width: 275px;
+	height: 250px;
+}
+.itemText {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	width: 275px;
+	height: 40px;
+	margin-top: 30px;
+	font-size: 14px;
+}
+.itemPrice {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	width: 275px;
+	height: 60px;
+	padding-top: 15px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.itemButton {
+	width: 275px;
+	height: 45px;
+}
+.itemPriceButton {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	height: 40px;
+	border-right: none;
+	position: relative;
+	left: 5px;
+	width: 120px;
+	background-color: #ffffff;
+	color: #24c36c;
+	opacity: 1;
+	border: 2px solid #e5e5e5;
+}
+.itemBuyNowButton {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	height: 40px;
+	width: 120px;
+	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
+	font-weight: 600;
+}
+.itemImgRadius {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.itemImgRadius2 {
+	border-radius: 5px;
+}
+.itemCellImg {
+	width: 275px;
+	height: 368px;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 5px;
+}
+#itemCellGradient {
+	background-image: linear-gradient(#41d7a9, #32c776);
+	width: 275px;
+	height: 368px;
+	border-radius: 5px;
+	opacity: 0.9;
+	position: absolute;
+}
+#itemCellGradient2 {
+	background-image: linear-gradient(#ca648b, #6f6599);
+	width: 275px;
+	height: 368px;
+	border-radius: 5px;
+	opacity: 0.8;
+	position: absolute;
+}
+
+.itemCellText1 {
+	position: absolute;
+	color: #ffffff;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+.itemCellText2 {
+	position: absolute;
+	color: #ffffff;
+	margin-top: 300px;
+	margin-left: 100px;
+}
+.itemCellImgSmall {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 70px;
+}
+.itemBottomButtonBox {
+	width: 1280px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.itemBottomButton {
+	border: 1.5px solid #ffffff;
+	height: 40px;
+	width: 260px;
+	background-color: #ffffff;
+	border-radius: 25px;
+	background-image: url(../assets/itemImgBottomButton.PNG);
+	background-repeat: no-repeat;
+	background-position: 200px 10px;
+	color: #ffffff;
+	background-color: rgba(38, 42, 50, 1);
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+
+/* -----------------------------------------------Banner----------------------------------------------- */
+#banner {
+	background-image: url(../assets/banner.PNG);
+	height: 437px;
+	width: 1280px;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.bannerText {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-size: 41px;
+	font-weight: 700;
+	color: #ffffff;
+	opacity: 1;
+}
+/* --------------------------------------------product Style------------------------------------------- */
+#products {
+	height: 560px;
+	width: 1280px;
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(38, 42, 50, 1);
+}
+.productText {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #ffffff;
+	margin-top: 35px;
+}
+.productArrows {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 60px;
+	margin-left: 15px;
+}
+.productBox {
+	/* height: 380px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.productCell {
+	width: 270px;
+	height: 300px;
+	margin: 15px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.productImg {
+}
+.productDescription {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	color: #45413e;
+	opacity: 1;
+	font-size: 16px;
+	padding-top: 15px;
+}
+.productOrigin {
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	text-align: center;
+	justify-content: center;
+	color: #84bc22;
+	font-size: 14px;
+	opacity: 1;
+	font-weight: bold;
+	padding-top: 12px;
+}
+.productArrowCenter {
+	padding-top: 3px;
+}
+.productArrowRight {
+	border: none;
+	padding: 0px;
+	height: 30px;
+	background-color: rgba(38, 42, 50, 1);
+}
+.productArrowLeft {
+	border: none;
+	padding: 0px;
+	height: 30px;
+	background-color: rgba(38, 42, 50, 1);
+}
+
+/* ------------------------------------------- benefits Style ----------------------------------------- */
+#benefits {
+	width: 1280px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 180px;
+	background-color: rgba(69, 65, 62, 1);
+	opacity: 1;
+}
+.benefitCell {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.benefitText {
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 140px;
+	opacity: 1;
+	color: #868380;
+}
+.benefitTitle {
+	color: #ffffff;
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+/* ------------------------------------------- footer Style ----------------------------------------- */
+#footer {
+	width: 1280px;
+	height: 400px;
+	display: flex;
+	font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+		BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+	padding: 5px;
+}
+.yearInfo {
+	color: #45413e;
+	padding-left: 35px;
+	font-weight: 600;
+}
+.year {
+	text-align: left;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.contact {
+	width: 220px;
+	text-align: left;
+	font-size: 13px;
+	margin-top: 50px;
+}
+.categoriesBox {
+	width: 600px;
+	height: 400px;
+	display: block;
+}
+.footerTitle {
+	display: flex;
+	text-align: left;
+	padding-left: 5px;
+}
+.colums {
+	width: 600px;
+	height: 300px;
+	display: flex;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 5px;
+}
+.footerColumn {
+	width: 200px;
+	text-align: left;
+	color: #45413e;
+	font-size: 13px;
+}
+.aboutColumn {
+	width: 150px;
+	text-align: left;
+	color: #45413e;
+	font-size: 13px;
+}
+.aboutColumn > ul {
+	padding-left: 30px;
+}
+.rightFooter {
+	width: 400px;
+	height: 400px;
+	display: flex;
+}
+.about {
+	text-align: left;
+	/* padding-left: 5px; */
+}
+.socialLinks {
+	width: 200px;
+	text-align: left;
+	margin-top: 20px;
+}
+.socialLink {
+	margin: 4px;
+	cursor: pointer;
+}
+.socialLink:hover {
+	background-color: #ffffff;
+	border: none;
+	border-radius: 50%;
+}
+.aboutColumn > .noBullet > li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.footerColumn > .noBullet > li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.contactTitle {
+	color: #333333;
+	font-size: 13px;
+}
+.categoriesTitle {
+	color: #333333;
+	font-size: 13px;
+}
+.aboutTitle {
+	color: #333333;
+	font-size: 13px;
+	margin-left: 25px;
+}
